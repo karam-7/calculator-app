@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="lightdark">
+    <!-- ===========================Start MAIN AREA======================= -->
+    <main id="site">
+        <div class="nav">              
+                <h1 class="nav-h1">calc</h1>
+                <div class="theme">
+                    <span class="theme-span">theme</span>
+                    <div class="theme-div">
+                        <input type="radio" id="theme1" name="theme" value="0" checked >
+                        <label for="lightdark">1</label>
+                        <input type="radio" id="theme2" name="theme" value="1">
+                        <label for="light">2</label>
+                        <input type="radio" id="theme3" name="theme" value="2">
+                        <label for="dark">3</label>
+                    </div>
+            </div>
+        </div>
+        <div class="display">
+            <div class="output"></div>
+            <div class="input"></div>
+        </div>
+        <div class="keyboard">
+            <button class="btn num" id="seven" value="7">7</button>
+            <button class="btn num" id="eight" value="8">8</button>
+            <button class="btn num" id="nine" value="9">9</button>
+            <button class="btn" id="del" value="del">DEL</button>
+            <button class="btn num" id="four" value="4">4</button>
+            <button class="btn num" id="five" value="5">5</button>
+            <button class="btn num" id="six" value="6">6</button>
+            <button class="btn operator" id="add" value="+">+</button>
+            <button class="btn num" id="one" value="1">1</button>
+            <button class="btn num" id="two" value="2">2</button>
+            <button class="btn num" id="three" value="3">3</button>
+            <button class="btn operator" id="subtract" value="-">-</button>
+            <button class="btn operator" id="decimal" value=".">.</button>
+            <button class="btn num" id="zero" value="0">0</button>
+            <button class="btn operator" id="divide" value="/">/</button>
+            <button class="btn operator" id="multiply" value="x">x</button>
+            <button class="btn operator" id="clear" value="reset">RESET</button>
+            <button class="btn" id="equals" value="=">=</button>
+        </div>
+    </main>
+
+    <!-- =========================== END MAIN AREA ======================= -->
+    <!-- ================================ START FOOTER AREA ====================== -->
+    <footer class="foot">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="http://karam-portfolio.liveblog365.com" target="_blank">
+          KARAM SINGH</a
+        >
+      </footer>
+      <!-- ================================ END FOOTER AREA ========================= -->
+      <script src="./script.js"></script>
+    
+</body>
+</html>
